@@ -1,0 +1,1019 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2日目 · Scala研修テキスト</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-forkmegithub/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="introduction-of-web-application-3rd-day.html" />
+    
+    
+    <link rel="prev" href="introduction-of-web-application-1st-day.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction-to-scala.html">
+            
+                <a href="introduction-to-scala.html">
+            
+                    
+                    Scalaとは
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="sbt-install.html">
+            
+                <a href="sbt-install.html">
+            
+                    
+                    sbtをインストールする
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="basic.html">
+            
+                <a href="basic.html">
+            
+                    
+                    Scalaの基本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="sbt-compile-execute.html">
+            
+                <a href="sbt-compile-execute.html">
+            
+                    
+                    sbtでプログラムをコンパイル・実行する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="IDE.html">
+            
+                <a href="IDE.html">
+            
+                    
+                    IDE(Intellij IDEA)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="control-syntax.html">
+            
+                <a href="control-syntax.html">
+            
+                    
+                    Scalaの制御構文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="class.html">
+            
+                <a href="class.html">
+            
+                    
+                    クラス
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="object.html">
+            
+                <a href="object.html">
+            
+                    
+                    オブジェクト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="trait.html">
+            
+                <a href="trait.html">
+            
+                    
+                    トレイト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="type-parameter.html">
+            
+                <a href="type-parameter.html">
+            
+                    
+                    型パラメータと変位指定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="function.html">
+            
+                <a href="function.html">
+            
+                    
+                    関数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="collection.html">
+            
+                <a href="collection.html">
+            
+                    
+                    コレクションライブラリ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="case-class-and-pattern-matching.html">
+            
+                <a href="case-class-and-pattern-matching.html">
+            
+                    
+                    ケースクラスとパターンマッチング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="error-handling.html">
+            
+                <a href="error-handling.html">
+            
+                    
+                    エラー処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="implicit.html">
+            
+                <a href="implicit.html">
+            
+                    
+                    Implicit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="introduction-to-typeclass.html">
+            
+                <a href="introduction-to-typeclass.html">
+            
+                    
+                    型クラスへの誘い（β版）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="future-and-promise.html">
+            
+                <a href="future-and-promise.html">
+            
+                    
+                    FutureとPromise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="test.html">
+            
+                <a href="test.html">
+            
+                    
+                    テスト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="java-interop.html">
+            
+                <a href="java-interop.html">
+            
+                    
+                    Javaとの相互運用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="exercises.html">
+            
+                <a href="exercises.html">
+            
+                    
+                    S99の案内
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="advanced-trait-di.html">
+            
+                <a href="advanced-trait-di.html">
+            
+                    
+                    トレイトの応用編：依存性の注入によるリファクタリング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="typeclass.html">
+            
+                <a href="typeclass.html">
+            
+                    
+                    付録：様々な型クラスの紹介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">画像変換サーバー開発 (2016年Scala研修テキスト)</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="develop-of-image-transformation-server-first-day.html">
+            
+                <a href="develop-of-image-transformation-server-first-day.html">
+            
+                    
+                    1日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="develop-of-image-transformation-server-second-day.html">
+            
+                <a href="develop-of-image-transformation-server-second-day.html">
+            
+                    
+                    2日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="develop-of-image-transformation-server-third-day.html">
+            
+                <a href="develop-of-image-transformation-server-third-day.html">
+            
+                    
+                    3日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Play Frameworkを使ったWebアプリケーション作成入門 (2017年Scala研修テキスト)</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="introduction-of-web-application-1st-day.html">
+            
+                <a href="introduction-of-web-application-1st-day.html">
+            
+                    
+                    1日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="introduction-of-web-application-2nd-day.html">
+            
+                <a href="introduction-of-web-application-2nd-day.html">
+            
+                    
+                    2日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="introduction-of-web-application-3rd-day.html">
+            
+                <a href="introduction-of-web-application-3rd-day.html">
+            
+                    
+                    3日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="introduction-of-web-application-4th-day.html">
+            
+                <a href="introduction-of-web-application-4th-day.html">
+            
+                    
+                    4日目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >2日目</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><h1 id="play-framework&#x3092;&#x4F7F;&#x3063;&#x305F;web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x4F5C;&#x6210;&#x5165;&#x9580;2&#x65E5;&#x76EE;"><a name="play-framework&#x3092;&#x4F7F;&#x3063;&#x305F;web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x4F5C;&#x6210;&#x5165;&#x9580;2&#x65E5;&#x76EE;" class="plugin-anchor" href="#play-framework&#x3092;&#x4F7F;&#x3063;&#x305F;web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x4F5C;&#x6210;&#x5165;&#x9580;2&#x65E5;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>Play Framework&#x3092;&#x4F7F;&#x3063;&#x305F;Web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x4F5C;&#x6210;&#x5165;&#x9580;2&#x65E5;&#x76EE;</h1>
+<p>Web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x4F5C;&#x6210;&#x306E;2&#x65E5;&#x76EE;&#x306F;&#x3001;&#x8868;&#x793A;&#x306B;HTML&#x3092;&#x4F7F;&#x3046;&#x3088;&#x3046;&#x306A;Web&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h2 id="&#x63B2;&#x793A;&#x677F;&#x3092;&#x4F5C;&#x308B;"><a name="&#x63B2;&#x793A;&#x677F;&#x3092;&#x4F5C;&#x308B;" class="plugin-anchor" href="#&#x63B2;&#x793A;&#x677F;&#x3092;&#x4F5C;&#x308B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x63B2;&#x793A;&#x677F;&#x3092;&#x4F5C;&#x308B;</h2>
+<p>&#x4ECA;&#x56DE;&#x4F5C;&#x308B;&#x306E;&#x306F;&#x3001;HTML&#x306E;&#x30D5;&#x30A9;&#x30FC;&#x30E0;&#x304B;&#x3089;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x9001;&#x4FE1;&#x3059;&#x308B;&#x3068;&#x3001;HTML&#x3067;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x304C;&#x8AAD;&#x3080;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;&#x63B2;&#x793A;&#x677F;&#x306B;&#x8868;&#x793A;&#x3059;&#x308B;&#x5185;&#x5BB9;&#x306F;&#x9001;&#x4FE1;&#x6642;&#x9593;&#x3068;&#x672C;&#x6587;&#x3060;&#x3051;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x30B5;&#x30F3;&#x30D7;&#x30EB;&#x30B3;&#x30FC;&#x30C9;&#x306F; <a href="http://github.o-in.dwango.co.jp/Scala/textbook/tree/master/src/example_projects/web-app-2nd-day-textboard-without-db" target="_blank">http://github.o-in.dwango.co.jp/Scala/textbook/tree/master/src/example_projects/web-app-2nd-day-textboard-without-db</a> &#x306B;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x30EB;&#x30FC;&#x30C6;&#x30A3;&#x30F3;&#x30B0;&#x306E;&#x8A2D;&#x5B9A;"><a name="&#x30EB;&#x30FC;&#x30C6;&#x30A3;&#x30F3;&#x30B0;&#x306E;&#x8A2D;&#x5B9A;" class="plugin-anchor" href="#&#x30EB;&#x30FC;&#x30C6;&#x30A3;&#x30F3;&#x30B0;&#x306E;&#x8A2D;&#x5B9A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x30EB;&#x30FC;&#x30C6;&#x30A3;&#x30F3;&#x30B0;&#x306E;&#x8A2D;&#x5B9A;</h3>
+<p>&#x4ECA;&#x56DE;&#x306E;&#x30EB;&#x30FC;&#x30C6;&#x30A3;&#x30F3;&#x30B0;&#x306F; <code>/</code> &#x306B;&#x5BFE;&#x3059;&#x308B; <code>GET</code> &#x3067;&#x63B2;&#x793A;&#x677F;&#x306E;&#x8868;&#x793A;&#x3092;&#x304A;&#x3053;&#x306A;&#x3044; <code>/</code> &#x306B;&#x5BFE;&#x3059;&#x308B; <code>POST</code> &#x3067;&#x63B2;&#x793A;&#x677F;&#x306E;&#x6295;&#x7A3F;&#x3092;&#x53D7;&#x3051;&#x4ED8;&#x3051;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x307E;&#x305F;&#x3001;&#x30D3;&#x30E5;&#x30FC;&#x306E;&#x8868;&#x793A;&#x3067;&#x4F7F;&#x308F;&#x308C;&#x308B;CSS&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x305F;&#x3081;&#x306B; <code>public</code> &#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092; <code>/assets</code> &#x3067;&#x53C2;&#x7167;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="confroutes"><a name="confroutes" class="plugin-anchor" href="#confroutes"><i class="fa fa-link" aria-hidden="true"></i></a><code>conf/routes</code></h4>
+<pre><code>GET    /               controllers.TextboardController.get()
+POST   /               controllers.TextboardController.post()
+
+GET    /assets/*file   controllers.Assets.versioned(path=&quot;/public&quot;, file: Asset)
+</code></pre><h3 id="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308B;"><a name="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308B;" class="plugin-anchor" href="#&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308B;</h3>
+<p>&#x307E;&#x305A;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h4 id="appcontrollerspostscala"><a name="appcontrollerspostscala" class="plugin-anchor" href="#appcontrollerspostscala"><i class="fa fa-link" aria-hidden="true"></i></a><code>app/controllers/Post.scala</code></h4>
+<pre><code class="lang-scala"><span class="hljs-keyword">package</span> controllers
+
+<span class="hljs-keyword">import</span> java.time.<span class="hljs-type">OffsetDateTime</span>
+
+<span class="hljs-keyword">case</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Post</span>(<span class="hljs-params">body: <span class="hljs-type">String</span>, date: <span class="hljs-type">OffsetDateTime</span></span>)</span>
+</code></pre>
+<p>&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x308B;&#x306E;&#x306F;&#x672C;&#x6587;&#x3068;&#x9001;&#x4FE1;&#x6642;&#x9593;&#x3060;&#x3051;&#x306A;&#x306E;&#x3067; <code>body</code> &#x3068; <code>date</code> &#x3068;&#x3044;&#x3046;2&#x3064;&#x306E;&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;&#x3092;&#x6301;&#x3064;&#x30B1;&#x30FC;&#x30B9;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F5C;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x4FDD;&#x5B58;&#x3068;&#x53D6;&#x5F97;"><a name="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x4FDD;&#x5B58;&#x3068;&#x53D6;&#x5F97;" class="plugin-anchor" href="#&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x4FDD;&#x5B58;&#x3068;&#x53D6;&#x5F97;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x4FDD;&#x5B58;&#x3068;&#x53D6;&#x5F97;</h3>
+<p>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x4FDD;&#x5B58;&#x3068;&#x53D6;&#x5F97;&#x3092;&#x304A;&#x3053;&#x306A;&#x3046; <code>PostRepository</code> &#x3068;&#x3044;&#x3046;&#x30AA;&#x30D6;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x3092;&#x4F5C;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="appcontrollerspostrepositoryscala"><a name="appcontrollerspostrepositoryscala" class="plugin-anchor" href="#appcontrollerspostrepositoryscala"><i class="fa fa-link" aria-hidden="true"></i></a><code>app/controllers/PostRepository.scala</code></h4>
+<pre><code class="lang-scala"><span class="hljs-keyword">package</span> controllers
+
+<span class="hljs-class"><span class="hljs-keyword">object</span> <span class="hljs-title">PostRepository</span> </span>{
+
+  <span class="hljs-keyword">var</span> posts: <span class="hljs-type">Seq</span>[<span class="hljs-type">Post</span>] = <span class="hljs-type">Vector</span>()
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">findAll</span></span>: <span class="hljs-type">Seq</span>[<span class="hljs-type">Post</span>] = posts
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">add</span></span>(post: <span class="hljs-type">Post</span>): <span class="hljs-type">Unit</span> = { posts = posts :+ post }
+}
+</code></pre>
+<p>&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x683C;&#x7D0D;&#x3059;&#x308B;&#x306E;&#x306F;&#x3001;&#x672C;&#x6765;&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;&#x306A;&#x3069;&#x3092;&#x7528;&#x3044;&#x305F;&#x307B;&#x3046;&#x304C;&#x3088;&#x3044;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x3053;&#x3053;&#x3067;&#x306F;&#x3068;&#x308A;&#x3042;&#x3048;&#x305A; <code>var</code> &#x3092;&#x4F7F;&#x3063;&#x305F;&#x5909;&#x6570;&#x306B;&#x683C;&#x7D0D;&#x3059;&#x308B;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;"><a name="&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;" class="plugin-anchor" href="#&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;</h3>
+<p>&#x6B21;&#x306B;&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x5168;&#x4F53;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;</p>
+<h4 id="appcontrollerstextboardcontrollerscala"><a name="appcontrollerstextboardcontrollerscala" class="plugin-anchor" href="#appcontrollerstextboardcontrollerscala"><i class="fa fa-link" aria-hidden="true"></i></a><code>app/controllers/TextboardController.scala</code></h4>
+<pre><code class="lang-scala"><span class="hljs-keyword">package</span> controllers
+
+<span class="hljs-keyword">import</span> java.time.<span class="hljs-type">OffsetDateTime</span>
+<span class="hljs-keyword">import</span> javax.inject.<span class="hljs-type">Inject</span>
+<span class="hljs-keyword">import</span> play.api.mvc.<span class="hljs-type">Action</span>
+<span class="hljs-keyword">import</span> play.api.mvc.<span class="hljs-type">Controller</span>
+<span class="hljs-keyword">import</span> play.api.data.<span class="hljs-type">Form</span>
+<span class="hljs-keyword">import</span> play.api.data.<span class="hljs-type">Forms</span>._
+<span class="hljs-keyword">import</span> play.api.i18n.<span class="hljs-type">I18nSupport</span>
+<span class="hljs-keyword">import</span> play.api.i18n.<span class="hljs-type">MessagesApi</span>
+
+<span class="hljs-keyword">case</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PostRequest</span>(<span class="hljs-params">body: <span class="hljs-type">String</span></span>)</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TextboardController</span> <span class="hljs-title">@Inject</span>(<span class="hljs-params"></span>)(<span class="hljs-params">val messagesApi: <span class="hljs-type">MessagesApi</span></span>) <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> <span class="hljs-keyword">with</span> <span class="hljs-title">I18nSupport</span> </span>{
+
+  <span class="hljs-keyword">private</span>[<span class="hljs-keyword">this</span>] <span class="hljs-keyword">val</span> form = <span class="hljs-type">Form</span>(
+    mapping(
+      <span class="hljs-string">&quot;post&quot;</span> -&gt; text(minLength = <span class="hljs-number">1</span>, maxLength = <span class="hljs-number">10</span>).withPrefix(<span class="hljs-string">&quot;hogeika&quot;</span>)
+    )(<span class="hljs-type">PostRequest</span>.apply)(<span class="hljs-type">PostRequest</span>.unapply))
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get</span> </span>= <span class="hljs-type">Action</span> { <span class="hljs-keyword">implicit</span> request =&gt;
+    <span class="hljs-type">Ok</span>(views.html.index(<span class="hljs-type">PostRepository</span>.findAll, form))
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">post</span> </span>= <span class="hljs-type">Action</span> { <span class="hljs-keyword">implicit</span> request =&gt;
+    form.bindFromRequest.fold(
+      error =&gt; <span class="hljs-type">BadRequest</span>(views.html.index(<span class="hljs-type">PostRepository</span>.findAll, error)),
+      postRequest =&gt; {
+        <span class="hljs-keyword">val</span> post = <span class="hljs-type">Post</span>(postRequest.body, <span class="hljs-type">OffsetDateTime</span>.now)
+        <span class="hljs-type">PostRepository</span>.add(post)
+        <span class="hljs-type">Redirect</span>(<span class="hljs-string">&quot;/&quot;</span>)
+      }
+    )
+  }
+}
+</code></pre>
+<h4 id="play&#x306E;form"><a name="play&#x306E;form" class="plugin-anchor" href="#play&#x306E;form"><i class="fa fa-link" aria-hidden="true"></i></a>Play&#x306E;Form</h4>
+<p>&#x307E;&#x305A;Play&#x306E;Form&#x90E8;&#x5206;&#x306E;&#x8AAC;&#x660E;&#x3092;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">  <span class="hljs-keyword">private</span>[<span class="hljs-keyword">this</span>] <span class="hljs-keyword">val</span> form = <span class="hljs-type">Form</span>(
+    mapping(
+      <span class="hljs-string">&quot;post&quot;</span> -&gt; text(minLength = <span class="hljs-number">1</span>, maxLength = <span class="hljs-number">10</span>)
+    )(<span class="hljs-type">PostRequest</span>.apply)(<span class="hljs-type">PostRequest</span>.unapply))
+</code></pre>
+<p>Play&#x306E;Form&#x306F;&#x3001;HTTP&#x306E;&#x30D5;&#x30A9;&#x30FC;&#x30E0;&#x30EA;&#x30AF;&#x30A8;&#x30B9;&#x30C8;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x304A;&#x3053;&#x306A;&#x3044;&#x3001;&#x5024;&#x3092;&#x53D6;&#x308A;&#x51FA;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#x6A5F;&#x80FD;&#x3067;&#x3059;&#x3002;&#x307E;&#x305F;&#x30A8;&#x30E9;&#x30FC;&#x5024;&#x3092;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306B;&#x6E21;&#x3059;&#x5F79;&#x5272;&#x3082;&#x6301;&#x3061;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x306E;&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;&#x3067;&#x306F;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x76EE;&#x7684;&#x3067;Form&#x3092;&#x4F7F;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li><code>post</code> &#x3068;&#x3044;&#x3046;&#x30D5;&#x30A9;&#x30FC;&#x30E0;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x3092;&#x53D7;&#x3051;&#x4ED8;&#x3051;&#x308B;</li>
+<li><code>post</code> &#x306F;&#x6700;&#x4F4E;1&#x6587;&#x5B57;&#x3001;&#x6700;&#x9AD8;10&#x6587;&#x5B57;&#x306E;&#x6587;&#x5B57;&#x5217;&#x3067;&#x3042;&#x308B;&#x3068;&#x3044;&#x3046;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x304A;&#x3053;&#x306A;&#x3046;</li>
+<li><code>PostRequest</code> &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;</li>
+<li>&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x30A8;&#x30E9;&#x30FC;&#x3060;&#x3063;&#x305F;&#x5834;&#x5408;&#x306F;&#x3001;&#x30A8;&#x30E9;&#x30FC;&#x3092;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306B;&#x4F1D;&#x3048;&#x308B;</li>
+</ul>
+<h4 id="get&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;"><a name="get&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;" class="plugin-anchor" href="#get&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>GET&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;</h4>
+<p>GET&#x306E;&#x30EA;&#x30AF;&#x30A8;&#x30B9;&#x30C8;&#x304C;&#x304D;&#x305F;&#x5834;&#x5408;&#x306F;&#x3001;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x5168;&#x90E8;&#x8AAD;&#x307F;&#x51FA;&#x3057;&#x3066;&#x3001;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x3092;&#x547C;&#x3073;&#x51FA;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get</span> </span>= <span class="hljs-type">Action</span> { <span class="hljs-keyword">implicit</span> request =&gt;
+    <span class="hljs-type">Ok</span>(views.html.index(<span class="hljs-type">PostRepository</span>.findAll, form))
+  }
+</code></pre>
+<p><code>views.html.index</code> &#x306F;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x95A2;&#x6570;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;Play&#x3067;&#x4F7F;&#x308F;&#x308C;&#x3066;&#x3044;&#x308B;Twirl&#x3068;&#x3044;&#x3046;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x306B;&#x3088;&#x308B;&#x3082;&#x306E;&#x3067;&#x3059;&#x3002;
+Twirl&#x306F; <code>app/views/index.scala.html</code> &#x3068;&#x3044;&#x3046;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092; <code>views.html.index</code> &#x3068;&#x3044;&#x3046;&#x95A2;&#x6570;&#x306B;&#x5909;&#x63DB;&#x3057;&#x307E;&#x3059;&#x3002;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x8A73;&#x7D30;&#x306B;&#x3064;&#x3044;&#x3066;&#x306F;&#x5F8C;&#x3067;&#x898B;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E; <code>views.html.index</code> &#x306B;&#x4ECA;&#x307E;&#x3067;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x5168;&#x90E8;&#x3068;&#x3001;&#x30A8;&#x30E9;&#x30FC;&#x60C5;&#x5831;&#x306E;&#x306A;&#x3044; <code>form</code> &#x3092;&#x6E21;&#x3059;&#x3053;&#x3068;&#x3067;HTML&#x3092;&#x30EC;&#x30B9;&#x30DD;&#x30F3;&#x30B9;&#x3068;&#x3057;&#x3066;&#x8FD4;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="post&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;"><a name="post&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;" class="plugin-anchor" href="#post&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>POST&#x306E;&#x3068;&#x304D;&#x306E;&#x52D5;&#x4F5C;</h4>
+<p>POST&#x306E;&#x30EA;&#x30AF;&#x30A8;&#x30B9;&#x30C8;&#x304C;&#x6765;&#x305F;&#x5834;&#x5408;&#x306F; <code>form</code> &#x306E; <code>bindFromRequest</code> &#x30E1;&#x30BD;&#x30C3;&#x30C9;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x30EA;&#x30AF;&#x30A8;&#x30B9;&#x30C8;&#x304B;&#x3089;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x3092;&#x8AAD;&#x307F;&#x53D6;&#x308A;&#x307E;&#x3059;&#x3002;&#x305D;&#x3057;&#x3066; <code>fold</code> &#x30E1;&#x30BD;&#x30C3;&#x30C9;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x7D50;&#x679C;&#x3092;&#x51E6;&#x7406;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">post</span> </span>= <span class="hljs-type">Action</span> { <span class="hljs-keyword">implicit</span> request =&gt;
+    form.bindFromRequest.fold(
+      error =&gt; <span class="hljs-type">BadRequest</span>(views.html.index(<span class="hljs-type">PostRepository</span>.findAll, error)),
+      postRequest =&gt; {
+        <span class="hljs-keyword">val</span> post = <span class="hljs-type">Post</span>(postRequest.body, <span class="hljs-type">OffsetDateTime</span>.now)
+        <span class="hljs-type">PostRepository</span>.add(post)
+        <span class="hljs-type">Redirect</span>(<span class="hljs-string">&quot;/&quot;</span>)
+      }
+    )
+  }
+</code></pre>
+<p><code>fold</code> &#x306E;&#x7B2C;1&#x5F15;&#x6570;&#x306F;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x304C;&#x5931;&#x6557;&#x3057;&#x305F;&#x3068;&#x304D;&#x306B;&#x547C;&#x3073;&#x51FA;&#x3059;&#x95A2;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x95A2;&#x6570;&#x306B;&#x306F;&#x30A8;&#x30E9;&#x30FC;&#x60C5;&#x5831;&#x304C;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B; <code>Form</code> &#x304C;&#x6E21;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;&#x3053;&#x3053;&#x3067;&#x306F;&#x305D;&#x308C;&#x3092;&#x305D;&#x306E;&#x307E;&#x307E;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306B;&#x6E21;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x7B2C;2&#x5F15;&#x6570;&#x306F;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306B;&#x6210;&#x529F;&#x3057;&#x305F;&#x3068;&#x304D;&#x306B;&#x547C;&#x3073;&#x51FA;&#x3059;&#x95A2;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x95A2;&#x6570;&#x306B;&#x306F;POST&#x3055;&#x308C;&#x305F;&#x30C7;&#x30FC;&#x30BF;&#x3092; <code>PostRequest</code> &#x306B;&#x5909;&#x63DB;&#x3057;&#x305F;&#x3082;&#x306E;&#x304C;&#x6E21;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x3053;&#x3053;&#x3067;&#x306F; <code>PostRepository.add</code> &#x3092;&#x4F7F;&#x3063;&#x3066;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x4FDD;&#x5B58;&#x3057; <code>GET /</code> &#x306B;&#x30EA;&#x30C0;&#x30A4;&#x30EC;&#x30AF;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="html&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;"><a name="html&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;" class="plugin-anchor" href="#html&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;"><i class="fa fa-link" aria-hidden="true"></i></a>HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;</h3>
+<p>&#x305D;&#x3057;&#x3066;&#x3001;&#x3044;&#x3088;&#x3044;&#x3088;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x90E8;&#x5206;&#x3092;&#x898B;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p>Play&#x306E;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x8A73;&#x3057;&#x3044;&#x8AAC;&#x660E;&#x306F;&#x3001;&#x516C;&#x5F0F;&#x30C9;&#x30AD;&#x30E5;&#x30E1;&#x30F3;&#x30C8;&#x306E; <a href="https://www.playframework.com/documentation/2.5.x/ScalaTemplates" target="_blank">ScalaTemplates</a> &#x306E;&#x3068;&#x3053;&#x308D;&#x306B;&#x3042;&#x308B;&#x306E;&#x3067;&#x3001;&#x3053;&#x3061;&#x3089;&#x3082;&#x5408;&#x308F;&#x305B;&#x3066;&#x53C2;&#x7167;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<h4 id="appviewsindexscalahtml"><a name="appviewsindexscalahtml" class="plugin-anchor" href="#appviewsindexscalahtml"><i class="fa fa-link" aria-hidden="true"></i></a><code>app/views/index.scala.html</code></h4>
+<pre><code class="lang-html">@import controllers.Post
+@import java.time.format.DateTimeFormatter
+
+@(posts: Seq[Post], form: Form[PostRequest])(implicit messages: Messages)
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Scala Text Textboard&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/textboard.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;h1&gt;@Messages(&quot;textboard.title&quot;)&lt;/h1&gt;
+      @for(error &lt;- form.errors){
+        &lt;p class=&quot;text-danger&quot; id=&quot;error&quot;&gt;@Messages(error.message)&lt;/p&gt;
+      }
+      &lt;form method=&quot;POST&quot; action=&quot;/&quot; class=&quot;form-inline&quot;&gt;
+        &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;post&quot; name=&quot;post&quot;&gt;
+        &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;@Messages(&quot;textboard.send&quot;)&lt;/button&gt;
+      &lt;/form&gt;
+      &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;&lt;th&gt;@Messages(&quot;textboard.dateTime&quot;)&lt;/th&gt;&lt;th&gt;@Messages(&quot;textboard.message&quot;)&lt;/th&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          @for(post &lt;- posts.reverse){
+            &lt;tr&gt;
+              &lt;td class=&quot;post-date&quot;&gt;@{
+                val formatter = DateTimeFormatter.ofPattern(Messages(&quot;textboard.dateFormat&quot;), messages.lang.toLocale)
+                post.date.format(formatter)
+              }&lt;/td&gt;
+              &lt;td class=&quot;post-body&quot;&gt;@post.body&lt;/td&gt;
+            &lt;/tr&gt;
+          }
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4 id="&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x5F15;&#x6570;"><a name="&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x5F15;&#x6570;" class="plugin-anchor" href="#&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x5F15;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x5F15;&#x6570;</h4>
+<p>&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;&#x306E;&#x3068;&#x3053;&#x308D;&#x3067;&#x8FF0;&#x3079;&#x305F;&#x3088;&#x3046;&#x306B;&#x3001;Play&#x306E;Twirl&#x3068;&#x3044;&#x3046;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306F;&#x3001;1&#x3064;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;1&#x3064;&#x306E;&#x95A2;&#x6570;&#x306B;&#x5909;&#x63DB;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;
+<code>index.scala.html</code> &#x3068;&#x3044;&#x3046;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306F; <code>views.html.index</code> &#x3068;&#x3044;&#x3046;&#x95A2;&#x6570;&#x306B;&#x5909;&#x63DB;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x4EE5;&#x4E0B;&#x306E;&#x90E8;&#x5206;&#x306F;&#x3053;&#x306E;&#x95A2;&#x6570;&#x306E;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">@(posts: <span class="hljs-type">Seq</span>[<span class="hljs-type">Post</span>], form: <span class="hljs-type">Form</span>[<span class="hljs-type">PostRequest</span>])(<span class="hljs-keyword">implicit</span> messages: <span class="hljs-type">Messages</span>)
+</code></pre>
+<p>&#x3064;&#x307E;&#x308A;&#x3001;&#x3053;&#x306E;&#x95A2;&#x6570;&#x306F;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x96C6;&#x307E;&#x308A;&#x306E; <code>Seq[Post]</code> &#x3068;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x30A8;&#x30E9;&#x30FC;&#x304C;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x3053;&#x3068;&#x304C;&#x3042;&#x308B; <code>Form</code> &#x3092;&#x53D7;&#x3051;&#x53D6;&#x308A;&#x3001;&#x307E;&#x305F;&#x3001;&#x56FD;&#x969B;&#x5316;&#x306E;&#x305F;&#x3081;&#x306E; <code>Messages</code> &#x3092; <code>implicit</code> &#x3067;&#x53D7;&#x3051;&#x53D6;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;"><a name="&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;" class="plugin-anchor" href="#&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;</h4>
+<p>&#x3053;&#x306E;HTML&#x306E;&#x6587;&#x7AE0;&#x306F;&#x3001;1&#x65E5;&#x76EE;&#x3067;&#x3084;&#x3063;&#x305F;Hello World&#x306E;&#x56FD;&#x969B;&#x5316;&#x306E;&#x3088;&#x3046;&#x306B;&#x3001;&#x3059;&#x3079;&#x3066;Messages&#x3092;&#x4F7F;&#x3063;&#x3066;&#x8868;&#x793A;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">      &lt;h1&gt;<span class="hljs-meta">@Messages</span>(<span class="hljs-string">&quot;textboard.title&quot;</span>)&lt;/h1&gt;
+</code></pre>
+<p>Twirl&#x306F; <code>@Messages</code> &#x306E;&#x3088;&#x3046;&#x306B;HTML&#x306E;&#x4E2D;&#x3067; <code>@</code> &#x304C;&#x4ED8;&#x3044;&#x3066;&#x3044;&#x308B;&#x5834;&#x6240;&#x3092;Scala&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3060;&#x3068;&#x89E3;&#x91C8;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x8A18;&#x6CD5;&#x306B;&#x3088;&#x308A;HTML&#x306E;&#x4E2D;&#x3067;Scala&#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x304C;&#x3067;&#x304D;&#x308B;&#x308F;&#x3051;&#x3067;&#x3059;&#x3002;</p>
+<h4 id="form-&#x306B;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306E;&#x8868;&#x793A;"><a name="form-&#x306B;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306E;&#x8868;&#x793A;" class="plugin-anchor" href="#form-&#x306B;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306E;&#x8868;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a><code>Form</code> &#x306B;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306E;&#x8868;&#x793A;</h4>
+<p><code>Form</code> &#x306B;&#x306F;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306B;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x306B;&#x30A8;&#x30E9;&#x30FC;&#x304C;&#x5165;&#x3063;&#x3066;&#x3044;&#x308B;&#x3053;&#x3068;&#x304C;&#x3042;&#x308B;&#x3068;&#x3044;&#x3046;&#x8AAC;&#x660E;&#x3092;&#x3053;&#x308C;&#x307E;&#x3067;&#x3057;&#x3066;&#x304D;&#x307E;&#x3057;&#x305F;&#x304C;&#x3001;&#x305D;&#x306E;&#x8868;&#x793A;&#x3092;&#x304A;&#x3053;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x306E;&#x304C;&#x4EE5;&#x4E0B;&#x306E;&#x90E8;&#x5206;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">      <span class="hljs-meta">@for</span>(error &lt;- form.errors){
+        &lt;p <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&quot;text-danger&quot;</span> id=<span class="hljs-string">&quot;error&quot;</span>&gt;<span class="hljs-meta">@Messages</span>(error.message)&lt;/p&gt;
+      }
+</code></pre>
+<p><code>@for</code> &#x306B;&#x3088;&#x308A; <code>form.errors</code> &#x306B;&#x30A8;&#x30E9;&#x30FC;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x306B;&#x306F; <code>error</code> &#x304C;&#x53D6;&#x308A;&#x51FA;&#x3055;&#x308C;&#x3001;&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><code>@for</code> &#x306F;Twirl&#x72EC;&#x81EA;&#x306E;&#x69CB;&#x6587;&#x3067;&#x3001;&#x57FA;&#x672C;&#x7684;&#x306B;&#x306F;Scala&#x306E; <code>for</code> &#x5F0F;&#x3068;&#x540C;&#x69D8;&#x306E;&#x52D5;&#x4F5C;&#x3092;&#x3057;&#x307E;&#x3059;&#x304C;&#x3001;&#x3057;&#x3070;&#x3057;&#x3070;&#x76F4;&#x89B3;&#x7684;&#x3067;&#x306A;&#x3044;&#x69CB;&#x6587;&#x30A8;&#x30E9;&#x30FC;&#xFF08;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x306E;&#x6709;&#x7121;&#x306E;&#x9055;&#x3044;&#x3067;&#x30A8;&#x30E9;&#x30FC;&#x306B;&#x306A;&#x308B;&#x306A;&#x3069;&#xFF09;&#x3092;&#x5F15;&#x304D;&#x8D77;&#x3053;&#x3059;&#x306E;&#x3067;&#x6CE8;&#x610F;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;<code>@if</code> &#x3082;&#x540C;&#x69D8;&#x3067;&#x3059;&#x3002;</p>
+<h4 id="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;"><a name="&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;" class="plugin-anchor" href="#&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;</h4>
+<p>&#x63B2;&#x793A;&#x677F;&#x306B;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8868;&#x793A;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x90E8;&#x5206;&#x3067;&#x304A;&#x3053;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-scala">          <span class="hljs-meta">@for</span>(post &lt;- posts.reverse){
+            &lt;tr&gt;
+              &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&quot;post-date&quot;</span>&gt;@{
+                <span class="hljs-keyword">val</span> formatter = <span class="hljs-type">DateTimeFormatter</span>.ofPattern(<span class="hljs-type">Messages</span>(<span class="hljs-string">&quot;textboard.dateFormat&quot;</span>), messages.lang.toLocale)
+                post.date.format(formatter)
+              }&lt;/td&gt;
+              &lt;td <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&quot;post-body&quot;</span>&gt;<span class="hljs-meta">@post</span>.body&lt;/td&gt;
+            &lt;/tr&gt;
+          }
+</code></pre>
+<p>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3059;&#x3079;&#x3066;&#x306B;&#x5BFE;&#x3057;&#x3066;&#x30C6;&#x30FC;&#x30D6;&#x30EB;&#x306E;&#x30AB;&#x30E9;&#x30E0;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x65E5;&#x6642;&#x306E;&#x8868;&#x793A;&#x306E;&#x90E8;&#x5206;&#x306F; <code>@{ }</code> &#x3068;&#x3044;&#x3046;&#x69CB;&#x6587;&#x3092;&#x4F7F;&#x3044;&#x3001;Scala&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3067;&#x8A18;&#x8FF0;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;
+ <code>@{ }</code> &#x306F;&#x8907;&#x6570;&#x884C;&#x306E;Scala&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x304F;&#x5834;&#x5408;&#x306B;&#x4FBF;&#x5229;&#x306A;&#x8A18;&#x6CD5;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;HTML&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;&#x306E;&#x90E8;&#x5206;&#x306F;&#x7D42;&#x308F;&#x308A;&#x3067;&#x3059;&#x3002;</p>
+<h3 id="&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;"><a name="&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;" class="plugin-anchor" href="#&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56FD;&#x969B;&#x5316;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;</h3>
+<p>&#x6700;&#x5F8C;&#x306B;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;&#x3092;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h4 id="confmessages"><a name="confmessages" class="plugin-anchor" href="#confmessages"><i class="fa fa-link" aria-hidden="true"></i></a><code>conf/messages</code></h4>
+<pre><code>textboard.title = Textboard
+textboard.dateTime = Date
+textboard.dateFormat = EEE, dd MMM yyyy HH:mm:ss
+textboard.message = Message
+textboard.send = Send
+
+error.minLength = Please enter a message.
+error.maxLength = The message is too long.
+</code></pre><h4 id="confmessagesja"><a name="confmessagesja" class="plugin-anchor" href="#confmessagesja"><i class="fa fa-link" aria-hidden="true"></i></a><code>conf/messages.ja</code></h4>
+<pre><code>textboard.title = &#x63B2;&#x793A;&#x677F;
+textboard.dateTime = &#x65E5;&#x6642;
+textboard.dateFormat = yyyy&#x5E74;MM&#x6708;dd&#x65E5; HH:mm:ss
+textboard.message = &#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;
+textboard.send = &#x9001;&#x4FE1;
+
+error.minLength = &#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x5165;&#x529B;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;
+error.maxLength = &#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x304C;&#x9577;&#x3059;&#x304E;&#x307E;&#x3059;
+</code></pre><p>&#x3053;&#x3053;&#x3067; <code>error.minLength</code> &#x3068; <code>error.maxLength</code> &#x306F;&#x30B3;&#x30F3;&#x30C8;&#x30ED;&#x30FC;&#x30E9;&#x30FC;&#x306E;Form&#x306E; <code>text(minLength = 1, maxLength = 10)</code> &#x306E;&#x6761;&#x4EF6;&#x306B;&#x9055;&#x53CD;&#x3057;&#x305F;&#x5834;&#x5408;&#x306E;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3067;&#x3059;&#x3002;Play Framework&#x5074;&#x3067;&#x6C7A;&#x307E;&#x3063;&#x3066;&#x3044;&#x308B;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306A;&#x306E;&#x3067;&#x3001;&#x3053;&#x306E;&#x5236;&#x7D04;&#x3092;&#x4F7F;&#x3046;&#x5834;&#x5408;&#x306F;&#x8A2D;&#x5B9A;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h3 id="&#x30C6;&#x30B9;&#x30C8;"><a name="&#x30C6;&#x30B9;&#x30C8;" class="plugin-anchor" href="#&#x30C6;&#x30B9;&#x30C8;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x30C6;&#x30B9;&#x30C8;</h3>
+<p>&#x4EE5;&#x4E0A;&#x3067;&#x3001;HTML&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;&#x3088;&#x3046;&#x306A;&#x63B2;&#x793A;&#x677F;&#x304C;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;&#x6B21;&#x306F;&#x3053;&#x306E;&#x63B2;&#x793A;&#x677F;&#x306E;&#x52D5;&#x4F5C;&#x3092;Play&#x306E;Selenium&#x3092;&#x4F7F;&#x3063;&#x305F;&#x30C6;&#x30B9;&#x30C8;&#x3067;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x307E;&#x3059;&#x3002;</p>
+<p>Play&#x306E;Selenium&#x3092;&#x4F7F;&#x3063;&#x305F;&#x30C6;&#x30B9;&#x30C8;&#x306E;&#x8A73;&#x3057;&#x3044;&#x8AAC;&#x660E;&#x306F;&#x3001;&#x516C;&#x5F0F;&#x30C9;&#x30AD;&#x30E5;&#x30E1;&#x30F3;&#x30C8;&#x306E; <a href="https://www.playframework.com/documentation/2.5.x/ScalaFunctionalTestingWithScalaTest" target="_blank">ScalaFunctionalTestingWithScalaTest</a> &#x306E;&#x3068;&#x3053;&#x308D;&#x306B;&#x3042;&#x308B;&#x306E;&#x3067;&#x3001;&#x3053;&#x3061;&#x3089;&#x3082;&#x5408;&#x308F;&#x305B;&#x3066;&#x53C2;&#x7167;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>Selenium&#x306F;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x4F7F;&#x3063;&#x3066;HTML&#x3084;JavaScript&#x3092;&#x30C6;&#x30B9;&#x30C8;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x3067;&#x3059;&#x3002;&#x3053;&#x3053;&#x3067;&#x306F;HtmlUnit&#x3068;&#x3044;&#x3046;Java&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x30D5;&#x30EC;&#x30FC;&#x30E0;&#x30EF;&#x30FC;&#x30AF;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x306E;&#x4EE3;&#x7528;&#x3092;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x304C;&#x3001;&#x5B9F;&#x969B;&#x306B;Google Chrome&#x3084;Firefox&#x3067;&#x30C6;&#x30B9;&#x30C8;&#x3092;&#x304A;&#x3053;&#x306A;&#x3046;&#x3053;&#x3068;&#x3082;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x3053;&#x3067;&#x6CE8;&#x610F;&#x3057;&#x305F;&#x3044;&#x306E;&#x306F;&#x3001;Selenium&#x306F;&#x5B9F;&#x969B;&#x306B;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x30C6;&#x30B9;&#x30C8;&#x3092;&#x304A;&#x3053;&#x306A;&#x3046;&#x305F;&#x3081;&#x3001;&#x30C6;&#x30B9;&#x30C8;&#x306E;&#x5B9F;&#x884C;&#x6642;&#x306B;&#x5834;&#x5408;&#x306B;&#x3088;&#x3063;&#x3066;&#x306F;&#x6642;&#x9593;&#x304C;&#x304B;&#x304B;&#x3063;&#x305F;&#x308A;&#x3001;&#x52D5;&#x4F5C;&#x304C;&#x4E0D;&#x898F;&#x5247;&#x306B;&#x306A;&#x3063;&#x305F;&#x308A;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3042;&#x308B;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x3059;&#x3002;&#x305F;&#x3068;&#x3048;&#x3070;JavaScript&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;HTML&#x306E;&#x8981;&#x7D20;&#x3092;&#x8868;&#x793A;&#x3057;&#x305F;&#x3044;&#x3068;&#x304D;&#x306B;JavaScript&#x306E;&#x5B9F;&#x884C;&#x306B;&#x6642;&#x9593;&#x304C;&#x304B;&#x304B;&#x308A;&#x3001;&#x306A;&#x304B;&#x306A;&#x304B;&#x8981;&#x7D20;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x306A;&#x3044;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3082;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;
+Selenium&#x306B;&#x3042;&#x308B;&#x5404;&#x7A2E;wait&#x6A5F;&#x80FD;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x5BFE;&#x51E6;&#x3059;&#x308B;&#x306A;&#x3069;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x305D;&#x308C;&#x3067;&#x306F;&#x30C6;&#x30B9;&#x30C8;&#x3092;&#x898B;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;</p>
+<h4 id="testtextboardspecscala"><a name="testtextboardspecscala" class="plugin-anchor" href="#testtextboardspecscala"><i class="fa fa-link" aria-hidden="true"></i></a><code>test/TextboardSpec.scala</code></h4>
+<pre><code class="lang-scala"><span class="hljs-keyword">import</span> org.scalatestplus.play._
+<span class="hljs-keyword">import</span> org.scalatestplus.play.guice.<span class="hljs-type">GuiceOneServerPerTest</span>
+<span class="hljs-keyword">import</span> play.api.mvc._
+<span class="hljs-keyword">import</span> play.api.inject.guice._
+<span class="hljs-keyword">import</span> play.api.routing._
+<span class="hljs-keyword">import</span> play.api.routing.sird._
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TextboardSpec</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">PlaySpec</span> <span class="hljs-keyword">with</span> <span class="hljs-title">GuiceOneServerPerTest</span> <span class="hljs-keyword">with</span> <span class="hljs-title">OneBrowserPerSuite</span> <span class="hljs-keyword">with</span> <span class="hljs-title">HtmlUnitFactory</span> </span>{
+
+  <span class="hljs-keyword">import</span> org.openqa.selenium.htmlunit.<span class="hljs-type">HtmlUnitDriver</span>
+
+  <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">createWebDriver</span></span>() = {
+    <span class="hljs-keyword">val</span> driver = <span class="hljs-keyword">new</span> <span class="hljs-type">HtmlUnitDriver</span> {
+      <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">setAcceptLanguage</span></span>(lang: <span class="hljs-type">String</span>) =
+        <span class="hljs-keyword">this</span>.getWebClient().addRequestHeader(<span class="hljs-string">&quot;Accept-Language&quot;</span>, lang)
+    }
+    driver.setAcceptLanguage(<span class="hljs-string">&quot;en&quot;</span>)
+    driver
+  }
+
+  <span class="hljs-string">&quot;GET /&quot;</span> should {
+    <span class="hljs-string">&quot;&#x4F55;&#x3082;&#x6295;&#x7A3F;&#x3057;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3057;&#x306A;&#x3044;&quot;</span> in {
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      assert(pageTitle === <span class="hljs-string">&quot;Scala Text Textboard&quot;</span>)
+      assert(findAll(className(<span class="hljs-string">&quot;post-body&quot;</span>)).length === <span class="hljs-number">0</span>)
+    }
+  }
+
+  <span class="hljs-string">&quot;POST /&quot;</span> should {
+    <span class="hljs-string">&quot;&#x6295;&#x7A3F;&#x3057;&#x305F;&#x3082;&#x306E;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&quot;</span> in {
+      <span class="hljs-keyword">val</span> body = <span class="hljs-string">&quot;test post&quot;</span>
+
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      textField(cssSelector(<span class="hljs-string">&quot;input#post&quot;</span>)).value = body
+      submit()
+
+      eventually {
+        <span class="hljs-keyword">val</span> posts = findAll(className(<span class="hljs-string">&quot;post-body&quot;</span>)).toSeq
+        assert(posts.length === <span class="hljs-number">1</span>)
+        assert(posts(<span class="hljs-number">0</span>).text === body)
+        assert(findAll(cssSelector(<span class="hljs-string">&quot;p#error&quot;</span>)).length === <span class="hljs-number">0</span>)
+      }
+    }
+  }
+
+  <span class="hljs-string">&quot;POST /&quot;</span> should {
+    <span class="hljs-string">&quot;&#x6295;&#x7A3F;&#x3057;&#x305F;&#x3082;&#x306E;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B; &#x305D;&#x306E;2&quot;</span> in {
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+
+      eventually {
+        <span class="hljs-keyword">val</span> posts = findAll(className(<span class="hljs-string">&quot;post-body&quot;</span>)).toSeq
+        assert(posts.length === <span class="hljs-number">1</span>)
+      }
+    }
+
+    <span class="hljs-string">&quot;&#x7A7A;&#x306E;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306F;&#x6295;&#x7A3F;&#x3067;&#x304D;&#x306A;&#x3044;&quot;</span> in {
+      <span class="hljs-keyword">val</span> body = <span class="hljs-string">&quot;&quot;</span>
+
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      textField(cssSelector(<span class="hljs-string">&quot;input#post&quot;</span>)).value = body
+      submit()
+
+      eventually {
+        <span class="hljs-keyword">val</span> error = findAll(cssSelector(<span class="hljs-string">&quot;p#error&quot;</span>)).toSeq
+        assert(error.length === <span class="hljs-number">1</span>)
+        assert(error(<span class="hljs-number">0</span>).text === <span class="hljs-string">&quot;Please enter a message.&quot;</span>)
+      }
+    }
+
+    <span class="hljs-string">&quot;&#x9577;&#x3059;&#x304E;&#x308B;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x306F;&#x6295;&#x7A3F;&#x3067;&#x304D;&#x306A;&#x3044;&quot;</span> in {
+      <span class="hljs-keyword">val</span> body = <span class="hljs-string">&quot;too long messages&quot;</span>
+
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      textField(cssSelector(<span class="hljs-string">&quot;input#post&quot;</span>)).value = body
+      submit()
+
+      eventually {
+        <span class="hljs-keyword">val</span> error = findAll(cssSelector(<span class="hljs-string">&quot;p#error&quot;</span>)).toSeq
+        assert(error.length === <span class="hljs-number">1</span>)
+        assert(error(<span class="hljs-number">0</span>).text === <span class="hljs-string">&quot;The message is too long.&quot;</span>)
+      }
+    }
+  }
+}
+</code></pre>
+<h4 id="get--&#x306E;&#x30C6;&#x30B9;&#x30C8;"><a name="get--&#x306E;&#x30C6;&#x30B9;&#x30C8;" class="plugin-anchor" href="#get--&#x306E;&#x30C6;&#x30B9;&#x30C8;"><i class="fa fa-link" aria-hidden="true"></i></a><code>GET /</code> &#x306E;&#x30C6;&#x30B9;&#x30C8;</h4>
+<pre><code class="lang-scala">  <span class="hljs-string">&quot;GET /&quot;</span> should {
+    <span class="hljs-string">&quot;&#x4F55;&#x3082;&#x6295;&#x7A3F;&#x3057;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3057;&#x306A;&#x3044;&quot;</span> in {
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      assert(pageTitle === <span class="hljs-string">&quot;Scala Text Textboard&quot;</span>)
+      assert(findAll(className(<span class="hljs-string">&quot;post-body&quot;</span>)).length === <span class="hljs-number">0</span>)
+    }
+  }
+</code></pre>
+<p>&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x7ACB;&#x3061;&#x4E0A;&#x3052;&#x3066;&#x3001;&#x6700;&#x521D;&#x306B;&#x30DA;&#x30FC;&#x30B8;&#x3092;&#x53D6;&#x5F97;&#x3057;&#x305F;&#x5834;&#x5408;&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x3053;&#x3053;&#x3067;&#x306F;&#x30DA;&#x30FC;&#x30B8;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3001;&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x304C;1&#x4EF6;&#x3082;&#x8868;&#x793A;&#x3055;&#x308C;&#x3066;&#x306A;&#x3044;&#x3053;&#x3068;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><code>go to</code> &#x306E;&#x3088;&#x3046;&#x306A;&#x8868;&#x73FE;&#x306F;Selenium&#x306B;&#x5BFE;&#x3059;&#x308B;DSL&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x69D8;&#x3005;&#x306A;&#x8868;&#x73FE;&#x304C;&#x3042;&#x308B;&#x306E;&#x3067;&#x3001;&#x308F;&#x304B;&#x3089;&#x306A;&#x3044;&#x8868;&#x73FE;&#x304C;&#x3042;&#x3063;&#x305F;&#x3089;&#x516C;&#x5F0F;&#x30C9;&#x30AD;&#x30E5;&#x30E1;&#x30F3;&#x30C8;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<h4 id="post--&#x306E;&#x30C6;&#x30B9;&#x30C8;"><a name="post--&#x306E;&#x30C6;&#x30B9;&#x30C8;" class="plugin-anchor" href="#post--&#x306E;&#x30C6;&#x30B9;&#x30C8;"><i class="fa fa-link" aria-hidden="true"></i></a><code>POST /</code> &#x306E;&#x30C6;&#x30B9;&#x30C8;</h4>
+<pre><code class="lang-scala">    <span class="hljs-string">&quot;&#x6295;&#x7A3F;&#x3057;&#x305F;&#x3082;&#x306E;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&quot;</span> in {
+      <span class="hljs-keyword">val</span> body = <span class="hljs-string">&quot;test post&quot;</span>
+
+      go to <span class="hljs-string">s&quot;http://localhost:<span class="hljs-subst">$port</span>/&quot;</span>
+      textField(cssSelector(<span class="hljs-string">&quot;input#post&quot;</span>)).value = body
+      submit()
+
+      eventually {
+        <span class="hljs-keyword">val</span> posts = findAll(className(<span class="hljs-string">&quot;post-body&quot;</span>)).toSeq
+        assert(posts.length === <span class="hljs-number">1</span>)
+        assert(posts(<span class="hljs-number">0</span>).text === body)
+        assert(findAll(cssSelector(<span class="hljs-string">&quot;p#error&quot;</span>)).length === <span class="hljs-number">0</span>)
+      }
+    }
+</code></pre>
+<p>POST&#x3067;&#x9001;&#x3063;&#x305F;&#x3082;&#x306E;&#x304C;&#x3061;&#x3083;&#x3093;&#x3068;&#x8868;&#x793A;&#x3067;&#x304D;&#x308B;&#x304B;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x4EE5;&#x4E0B;&#x306E;&#x90E8;&#x5206;&#x3067;&#x30D5;&#x30A9;&#x30FC;&#x30E0;&#x306B;&#x5024;&#x3092;&#x5165;&#x308C;&#x3001;&#x9001;&#x4FE1;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>      go to s&quot;http://localhost:$port/&quot;
+      textField(cssSelector(&quot;input#post&quot;)).value = body
+      submit()
+</code></pre><p>&#x305D;&#x306E;&#x5F8C;&#x3001;&#x30B5;&#x30FC;&#x30D0;&#x30FC;&#x5074;&#x3067;&#x9001;&#x4FE1;&#x304C;&#x53D7;&#x7406;&#x3055;&#x308C; <code>/</code> &#x306B;&#x30EA;&#x30C0;&#x30A4;&#x30EC;&#x30AF;&#x30C8;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;&#x6295;&#x7A3F;&#x304C;&#x6210;&#x529F;&#x3057;&#x305F;&#x3053;&#x3068;&#x3068;&#x5185;&#x5BB9;&#x304C;&#x9001;&#x3063;&#x305F;&#x3082;&#x306E;&#x3068;&#x540C;&#x4E00;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>      eventually {
+        val posts = findAll(className(&quot;post-body&quot;)).toSeq
+        assert(posts.length === 1)
+        assert(posts(0).text === body)
+        assert(findAll(cssSelector(&quot;p#error&quot;)).length === 0)
+      }
+</code></pre><p><code>eventually</code> &#x306F;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x307E;&#x3067;wait&#x3059;&#x308B;&#x66F8;&#x304D;&#x65B9;&#x3067;&#x3059;&#x3002;&#x524D;&#x306B;&#x8FF0;&#x3079;&#x305F;&#x3088;&#x3046;&#x306B;Selenium&#x306F;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x4F7F;&#x3063;&#x305F;&#x30C6;&#x30B9;&#x30C8;&#x306E;&#x305F;&#x3081;&#x3001;POST&#x304B;&#x3089;&#x5B9F;&#x969B;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x307E;&#x3067;&#x3001;&#x3053;&#x3046;&#x3044;&#x3046;&#x66F8;&#x304D;&#x65B9;&#x3067;&#x5F85;&#x3064;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x6B8B;&#x308A;&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x306F;&#x540C;&#x69D8;&#x306A;&#x306E;&#x3067;&#x3001;&#x8AAC;&#x660E;&#x306F;&#x7701;&#x7565;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x6F14;&#x7FD2;&#x554F;&#x984C;&#xFF1A;&#x4E88;&#x5B9A;&#x8868;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;"><a name="&#x6F14;&#x7FD2;&#x554F;&#x984C;&#xFF1A;&#x4E88;&#x5B9A;&#x8868;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;" class="plugin-anchor" href="#&#x6F14;&#x7FD2;&#x554F;&#x984C;&#xFF1A;&#x4E88;&#x5B9A;&#x8868;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6F14;&#x7FD2;&#x554F;&#x984C;&#xFF1A;&#x4E88;&#x5B9A;&#x8868;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;</h3>
+<p>&#x4E88;&#x5B9A;&#x8868;&#x306E;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x4E88;&#x5B9A;&#x8868;&#x306B;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x6A5F;&#x80FD;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x4F5C;&#x6210;&#x3092;&#x3059;&#x308B;</li>
+<li>&#x6307;&#x5B9A;&#x3057;&#x305F;&#x65E5;&#x306E;&#x4E88;&#x5B9A;&#x306E;&#x4E00;&#x89A7;&#x3092;&#x898B;&#x308B;</li>
+</ul>
+<p>&#x4E88;&#x5B9A;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x60C5;&#x5831;&#x304C;&#x542B;&#x307E;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x540D;&#x524D;</li>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x958B;&#x59CB;&#x65E5;&#x6642;</li>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x7D42;&#x4E86;&#x65E5;&#x6642;</li>
+</ul>
+<p>&#x4E88;&#x5B9A;&#x306B;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x5236;&#x7D04;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x540D;&#x524D;&#x306F;1&#x6587;&#x5B57;&#x304B;&#x3089;30&#x6587;&#x5B57;&#x307E;&#x3067;</li>
+<li>&#x4E88;&#x5B9A;&#x306E;&#x7D42;&#x4E86;&#x65E5;&#x6642;&#x306F;&#x4E88;&#x5B9A;&#x306E;&#x958B;&#x59CB;&#x65E5;&#x6642;&#x3088;&#x308A;&#x5F8C;&#x3067;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;</li>
+</ul>
+<p>&#x4E88;&#x5B9A;&#x8868;&#x306B;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x30DA;&#x30FC;&#x30B8;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li><p>&#x30C8;&#x30C3;&#x30D7;&#x753B;&#x9762;</p>
+<ul>
+<li><a href="http://localhost:9000/" target="_blank">http://localhost:9000/</a></li>
+<li>&#x30AF;&#x30A8;&#x30EA;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x304C;&#x306A;&#x3044;&#x5834;&#x5408;&#x2192;&#x4ECA;&#x65E5;&#x306E;&#x4E88;&#x5B9A;&#x3092;&#x8868;&#x793A;&#x3057;&#x307E;&#x3059;</li>
+<li>date=yyyy-mm-dd&#x306E;&#x3088;&#x3046;&#x306A;&#x30AF;&#x30A8;&#x30EA;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x2192;&#x305D;&#x306E;&#x65E5;&#x306E;&#x4E88;&#x5B9A;&#x3092;&#x8868;&#x793A;&#x3057;&#x307E;&#x3059;</li>
+</ul>
+</li>
+<li><p>&#x4E88;&#x5B9A;&#x6295;&#x7A3F;&#x753B;&#x9762;</p>
+<ul>
+<li><a href="http://localhost:9000/add" target="_blank">http://localhost:9000/add</a></li>
+<li>&#x4E88;&#x5B9A;&#x3092;&#x6295;&#x7A3F;&#x3067;&#x304D;&#x307E;&#x3059;</li>
+<li>&#x6295;&#x7A3F;&#x3055;&#x308C;&#x305F;&#x4E88;&#x5B9A;&#x304C;&#x5236;&#x7D04;&#x3092;&#x6E80;&#x305F;&#x3057;&#x3066;&#x3044;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x30A8;&#x30E9;&#x30FC;&#x8868;&#x793A;&#x3092;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;</li>
+</ul>
+</li>
+</ul>
+<p>&#x6A5F;&#x80FD;&#x304C;&#x5B8C;&#x6210;&#x3057;&#x305F;&#x3089;Play&#x306E;Selenium&#x3092;&#x4F7F;&#x3063;&#x305F;&#x30C6;&#x30B9;&#x30C8;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+</body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="introduction-of-web-application-1st-day.html" class="navigation navigation-prev " aria-label="Previous page: 1日目">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="introduction-of-web-application-3rd-day.html" class="navigation navigation-next " aria-label="Next page: 3日目">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2日目","level":"3.2","depth":1,"next":{"title":"3日目","level":"3.3","depth":1,"path":"introduction-of-web-application-3rd-day.md","ref":"introduction-of-web-application-3rd-day.md","articles":[]},"previous":{"title":"1日目","level":"3.1","depth":1,"path":"introduction-of-web-application-1st-day.md","ref":"introduction-of-web-application-1st-day.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include-codeblock","japanese-support","footnote-string-to-number","anchors","regexplace","forkmegithub"],"root":"./gitbook","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"regexplace":{"substitutes":[{"pattern":"<!-- begin answer id=\"(.*)\" style=\"(.*)\" -->","flags":"g","substitute":"<div><button type=\"button\" id=\"$1_show_answer_button\" style=\"display:block\" onclick=\"document.getElementById('$1').style.display='block'; document.getElementById('$1_show_answer_button').style.display='none'; document.getElementById('$1_hide_answer_button').style.display='block'; \">解答例を表示する</button><button type=\"button\" id=\"$1_hide_answer_button\" style=\"display:none\" onclick=\"document.getElementById('$1').style.display='none'; document.getElementById('$1_show_answer_button').style.display='block'; document.getElementById('$1_hide_answer_button').style.display='none'; \">解答例を隠す</button></div><div id=\"$1\" style=\"$2\">"},{"pattern":"<!-- end answer -->","flags":"g","substitute":"</div>"}]},"search":{},"footnote-string-to-number":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"japanese-support":{},"highlight":{},"include-codeblock":{"check":false,"edit":false,"lang":"","fixlang":false,"template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"forkmegithub":{"color":"darkblue","url":"https://github.com/dwango/scala_text"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"INTRODUCTION.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Scala研修テキスト","gitbook":"*"},"file":{"path":"introduction-of-web-application-2nd-day.md","mtime":"2018-03-15T20:48:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-15T20:52:50.419Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-forkmegithub/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

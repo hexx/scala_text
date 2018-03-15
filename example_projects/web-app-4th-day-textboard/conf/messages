@@ -1,0 +1,2 @@
+error.minLength = Please enter a message.
+error.maxLength = The message is too long.

@@ -1,0 +1,2 @@
+GET    /posts   controllers.PostsController.get()
+POST   /posts   controllers.PostsController.post()

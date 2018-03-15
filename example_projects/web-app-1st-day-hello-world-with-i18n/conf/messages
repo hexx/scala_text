@@ -1,0 +1,2 @@
+hello = Hello, {0}!
+noQuery = Please give a name as a query parameter named "name".

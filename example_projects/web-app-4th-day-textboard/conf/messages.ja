@@ -1,0 +1,2 @@
+error.minLength = メッセージを入力してください
+error.maxLength = メッセージが長すぎます

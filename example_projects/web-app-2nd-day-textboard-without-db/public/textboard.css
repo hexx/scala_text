@@ -1,0 +1,7 @@
+td.post-date {
+  white-space: nowrap;
+}
+
+td.post-body {
+  width: 100%;
+}
